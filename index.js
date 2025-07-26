@@ -1,6 +1,6 @@
 const { readFileSync } = require('fs');
 
-
+// 
 function calcularTotalApresentacao(apre, peca) {
     let total = 0;
     switch (peca.tipo) {
